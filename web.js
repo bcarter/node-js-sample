@@ -3,7 +3,7 @@ var app = express();
 app.use(express.logger());
 
 app.get('/', function(request, response) {
-  response.send('Howdy World!');
+  response.send('Howdy Universe!');
 });
 
 var port = process.env.PORT || 5000;
